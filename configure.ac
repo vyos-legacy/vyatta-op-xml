@@ -28,7 +28,7 @@ AC_ARG_ENABLE([nostrip],
 	[NOSTRIP=-nostrip], [NOSTRIP=])
 
 AC_CONFIG_FILES(
-	[Makefile]
+	[Makefile])
 
 AC_SUBST(NOSTRIP)
 
