@@ -1,0 +1,14 @@
+Source: vyatta-op-xml
+Section: contrib/net
+Priority: extra
+Maintainer: Marat Nepomnyashy <marat@vyatta.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: vyatta-op-xml
+Architecture: all
+Depends: 
+ host,
+ libsablot0
+Description: Vyatta XML utils for operations
+ Vyatta XML utils for operations

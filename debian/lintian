@@ -1,0 +1,3 @@
+vyatta-op-xml: file-in-unusual-dir
+vyatta-op-xml: dir-or-file-in-opt
+vyatta-op-xml: shell-script-fails-syntax-check ./opt/vyatta/bin/vyatta-show-interfaces
