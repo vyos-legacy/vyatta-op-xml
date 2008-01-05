@@ -6,9 +6,8 @@ Build-Depends: debhelper (>= 5), autotools-dev
 Standards-Version: 3.7.2
 
 Package: vyatta-op-xml
-Architecture: all
-Depends: 
- host,
+Architecture: any
+Depends: host,
  libsablot0
 Description: Vyatta XML utils for operations
- Vyatta XML utils for operations
+ Vyatta XML utils for operational commands.
