@@ -8,6 +8,7 @@ Standards-Version: 3.7.2
 Package: vyatta-op-xml
 Architecture: any
 Depends: host,
+ libc6,
  libsablot0
 Description: Vyatta XML utils for operations
  Vyatta XML utils for operational commands.
