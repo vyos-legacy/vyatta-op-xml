@@ -15,9 +15,9 @@ libtool
 /configure
 /debian/files
 /debian/vyatta-op-xml
+/debian/vyatta-op-xml.debhelper.log
 /INSTALL
 /Makefile.in
 /Makefile
 
 /src/render_xml
-
