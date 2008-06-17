@@ -1,3 +1,17 @@
+vyatta-op-xml (0.10) unstable; urgency=low
+
+	  3.1.0
+  [ Mark O'Brien ]
+
+
+  [ rbalocca ]
+  * Ignore derived files
+  * Convert to our method of changelog creation
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Tue, 17 Jun 2008 09:27:12 -0700
+
 vyatta-op-xml (0.9) unstable; urgency=low
 
   3.0.5
