@@ -13,7 +13,7 @@ main(int argc, char* argv[])
   if (argc < 2) {
     printf("usage: %s <xsl_file>\n", argv[0]);
     printf("       (takes XML from stdin)\n"); 
-    exit(1);
+    return 1;
   }
 
   char buf[2048];
@@ -27,5 +27,5 @@ main(int argc, char* argv[])
   XSLProcessor xsl_processor(false);
   cout << xsl_processor.transform(xml_str, xsl_file, listParams) << endl;
 
-  exit(0);
+  return 0;
 }
