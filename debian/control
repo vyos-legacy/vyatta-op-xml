@@ -10,7 +10,6 @@ Architecture: any
 Depends: host,
  vyatta-op,
  vyatta-bash | bash (>= 3.1),
- libc6,
- libsablot0
+ ${shlibs:Depends}
 Description: Vyatta XML utils for operations
  Vyatta XML utils for operational commands.
